@@ -1,0 +1,25 @@
+<div *ngIf="user">
+  <div class="panel panel-default">
+    <div class="panel-heading"> 
+     {{user.name}} <small>{{user.login}}</small>
+      <span *ngIf="user.company">,Works at{{user.company}}</span>
+      {{user.location}} 
+   </div>
+    <div class="panel-body">
+      <div class="row">
+        <div class="col-sm-3">
+          <img src="{{user.avatar_url}}" class="img-circle img-responsive">
+        </div>
+        <div class="col-sm-5">
+          <ul class="list-group">
+            <li class="list-group-item" *ngIf="user.bio">{{user.bio}}</li>
+            <li class="list-group-item" *ngIf="user.hireable">{{user.bio}}</li>
+            <li class="list-group-item">{{user.bio}}</li>
+            <li class="list-group-item">{{user.bio}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
