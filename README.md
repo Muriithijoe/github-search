@@ -17,11 +17,12 @@ This is a site for finding github users and repos
 ~If you have an internet connection it will take you to the site
 
 **Link to live site**
+https://github.com/Muriithijoe/github-search.git
 
 
 
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+**Technologies used**
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1. and Bootstrap
 
 **Development server**
 
