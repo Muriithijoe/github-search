@@ -9,9 +9,15 @@ import {UserService} from '../user.service';
 export class UserComponent implements OnInit {
   user: any[];
   repos: any[];
+  username:string;
 
   constructor(private userService: UserService) {
-    this.userService.getUserInfo().subscribe(user => {
+    
+   }
+
+   findUser (){
+     this.userService.updateUser(this.username);
+     this.userService.getUserInfo().subscribe(user => {
       console.log(user);
       this.user = user;
     });
