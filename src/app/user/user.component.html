@@ -2,7 +2,7 @@
   <div class="panel panel-default">
     <div class="panel-heading"> 
      {{user.name}} <small>{{user.login}}</small>
-      <span *ngIf="user.company">,Works at{{user.company}}</span>
+      <span *ngIf="user.company">,Works at {{user.company}}</span>
       {{user.location}} 
    </div>
     <div class="panel-body">
@@ -13,10 +13,22 @@
         <div class="col-sm-5">
           <ul class="list-group">
             <li class="list-group-item" *ngIf="user.bio">{{user.bio}}</li>
-            <li class="list-group-item" *ngIf="user.hireable">{{user.bio}}</li>
-            <li class="list-group-item">{{user.bio}}</li>
-            <li class="list-group-item">{{user.bio}}</li>
+            <li class="list-group-item" *ngIf="user.hireable">{{user.hireable}}</li>
+            <li class="list-group-item" *ngIf="user.blog"><a href="{{user.blog}}" target="blank">{{user.blog}}</a></li>
+            <li class="list-group-item" *ngIf="user.email"><a href="emailto{{user.email}}">{{user.email}}</a> </li>
           </ul>
+        </div>
+        <div class="col-sm-4">
+          <div>
+            <p>
+              <span class="label label-default">{{user.followers}} Followers</span>
+              <span class="label label-default">{{user.following}} Followings</span>
+              <span class="label label-default">{{user.public_gist}} Public_gist</span>
+              <span class="label label-default">{{user.public_repos}} Public Repos</span>
+              
+            </p>
+            <p><a href="{{user.html_url}}" class="btn btn-success btn-sm">View profile in github</a></p>
+          </div>
         </div>
       </div>
     </div>
