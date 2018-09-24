@@ -16,6 +16,10 @@ This is a site for finding github users and repos
 
 ~If you have an internet connection it will take you to the site
 
+**BDD**
+
+  ~If you search a github user it will bring you their repos
+
 **Link to live site**
 
 https://github.com/Muriithijoe/github-search.git
