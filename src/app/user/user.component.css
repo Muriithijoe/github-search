@@ -4,5 +4,9 @@
 
 background {
     background-color: aqua;
+}
+
+.jumbotron {
     text-align: center;
+    background-color: gray;
 }
