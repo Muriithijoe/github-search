@@ -24,6 +24,9 @@
         <div class="col-sm-3">
           <img src="{{user.avatar_url}}" class="img-circle img-responsive">
         </div>
+      </div>
+
+      <div class="row">
         <div class="col-sm-5">
           <ul class="list-group">
             <li class="list-group-item" *ngIf="user.bio">{{user.bio}}</li>
@@ -32,6 +35,8 @@
             <li class="list-group-item" *ngIf="user.email"><a href="emailto{{user.email}}">{{user.email}}</a> </li>
           </ul>
         </div>
+      </div>
+
         <div class="col-sm-4">
           <div>
             <p>
