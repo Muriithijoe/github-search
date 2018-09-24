@@ -1,3 +1,9 @@
+<form action="">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder="search github users and repos">
+  </div>
+</form>
+
 <div *ngIf="user">
   <div class="panel panel-default">
     <div class="panel-heading"> 
@@ -27,7 +33,18 @@
               <span class="label label-default">{{user.public_repos}} Public Repos</span>
               
             </p>
-            <p><a href="{{user.html_url}}" class="btn btn-success btn-sm">View profile in github</a></p>
+            <p><a href="{{user.html_url}}" class="btn btn-success btn-sm" target="_blank">View profile in github</a></p>
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h3 class="panel-title">Repos</h3>
+              </div>
+              <div class="panel-body" *ngFor="let repo of repos">
+                <p class="clearfix">
+                  {{repo.name}} <a href="{{repo.html_url}}" target="_blank" class="btn btn-sm btn-info">View this project on github</a>
+                </p>
+                <p>{{repo.descriptio}}</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
