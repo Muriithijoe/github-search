@@ -28,7 +28,7 @@ This is a site for finding github users and repos.
 
 **Link to live site**
 
-https://github.com/Muriithijoe/github-search.git
+https://muriithijoe.github.io/github-search/
 
 
 
