@@ -2,27 +2,27 @@
 
 **By**
 
-Joe Muriithi
+Joe Muriithi.
 
 **Description**
 
-This is a site for finding github users and repos
+This is a site for finding github users and repos.
 
 **How to set-up**
 
 ~Once you receive the link.Open the browser.
 
-~Run the link in the browser
+~Run the link in the browser.
 
-~If you have an internet connection it will take you to the site
+~If you have an internet connection it will take you to the site.
 
 **BDD**
 
-  ~If you search a github user it will bring you their repos
+  ~If you search a github user it will bring you their repos.
   
-  ~once you start typing it starts searching
+  ~once you start typing it starts searching.
   
-  ~it cannot search an empty input area
+  ~it cannot search an empty input area.
   
  
 
@@ -34,7 +34,7 @@ https://github.com/Muriithijoe/github-search.git
 
 **Technologies used**
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1. and Bootstrap
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1. and Bootstrap.
 
 **Development server**
 
