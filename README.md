@@ -19,6 +19,10 @@ This is a site for finding github users and repos
 **BDD**
 
   ~If you search a github user it will bring you their repos
+  
+  ~once you start typing it starts searching
+  
+ 
 
 **Link to live site**
 
