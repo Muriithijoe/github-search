@@ -22,6 +22,8 @@ This is a site for finding github users and repos
   
   ~once you start typing it starts searching
   
+  ~it cannot search an empty input area
+  
  
 
 **Link to live site**
